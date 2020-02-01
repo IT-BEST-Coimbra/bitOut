@@ -1,0 +1,434 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+	line-height: 26px;
+    font-weight: 300;
+    color:#242424;
+    text-align: center;
+    
+}
+nav{
+    text-align: left;
+}
+#menu i{
+    text-align: left;
+    font-size: 50px;
+    color: #E16036;
+    margin-top: 2%;
+    margin-left: 2%;
+    position: fixed;
+    z-index: 100;
+}
+#bitout img{
+    margin-top: 2%;
+    margin-right: 3%;
+    position: fixed;
+    z-index: 100;
+    width:15%;
+    
+}
+
+.menuOpcoes {
+    text-align: center;
+    position: fixed;
+    cursor: pointer;
+    color: #242424;
+    z-index: 2;
+    background-color: #FCDE9C;
+    height: 100%;
+    width: 100%;
+    left: -100%;
+    transition: left .5s;
+    
+}
+.opcoes:first-child{
+    margin-top: 7%;
+}
+
+.opcoes{
+    padding: 1.5% 0%;
+    text-align: center;
+    width: 100%;
+    display: block;
+    color: #242424;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.opcoes:hover{
+    text-decoration: none;
+    background-color: #E16036;
+    color: #242424;
+    
+}
+.opcoes:active, .opcoes:visited, .opcoes:link{
+    text-decoration: none;
+    color: #242424;
+}
+
+
+
+ #sobre h1, #best h1, #parcerias h1, #termos h1, #actividades h1, #team h1, #contactos h1, #horario h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color:#DD1500;
+    padding-top: 5%;
+    font-size:40px;
+     text-align: left;
+}
+#sobre{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    color:#242424;
+    font-size:16px;
+    line-height: 20px;
+    text-align: left;
+    
+        
+}
+#texto_sobre{
+    margin-top: 7%;
+    
+}
+.sobre_icones{
+    margin-top: 10%;
+}
+.sobre_icones i {
+    font-size: 100px;
+    color: #FFA552;
+    
+}
+.sobre_icones p{
+    text-align: center;
+}
+#sobre h2, #termos h2, #actividades h2{
+    color:#E16036;
+    font-family: "Montserrat", sans-serif;
+    font-size:26px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 10%;
+    margin-bottom: 5%;
+
+}
+.botao{
+    color: #242424;
+    background-color: #FFA552; 
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 5px
+    
+}
+.botao:hover{
+    color:#242424;
+    text-decoration: none;
+    background-color: #FCDE9C;
+}
+#best{
+    margin-top: 10%;
+    padding-left: 10%;
+    background-color: #242424;
+    text-align: center;
+    
+}
+#best p{
+    color: white;
+    padding-top: 4%;
+    text-align: left;
+}
+.best_img_mobile{
+     display: none;
+ }
+
+#parcerias{
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: left;
+}
+#parcerias img{
+    width:30%;
+    margin-top: 7%;
+    margin-bottom: 3%;
+}
+.img2{
+    padding-top: 6%;
+}
+#parcerias p{
+    margin-bottom: 5%;
+}
+.deloitte{
+   margin-top: 10%; 
+}
+#termos{
+    padding-right:10%;
+    padding-left: 10%;
+    text-align: left;
+    margin-top: 10%;
+    padding-bottom: 5%;
+    background-color: #DD1500;
+}
+#termos h2, #termos h1, #termos p{
+    color:white;
+}
+#termos h2{
+    margin-bottom: 3%; 
+    margin-top:7%;
+}
+#actividades{
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: center;
+   
+}
+.activity{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.space{
+    margin-bottom: 5%;
+}
+#horario{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    
+}
+.horario{
+    margin-top: 5%;
+    width:70%;
+    margin-left: 15%;
+}
+
+#team {
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color:#E16036; 
+    text-align: left;
+    margin-top: 5%;
+}
+#team h1{
+    color:white;
+}
+.view {
+
+    margin: 10px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    cursor: default;
+    
+}
+.view a{
+    cursor: pointer;
+}
+.view .mask, .view .content {
+    width:100%;
+    height:100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+.view .foto_team {
+    width:100%;
+    
+    display: block;
+    position: relative;
+}
+.view h2 {
+    text-transform: uppercase;
+    color: #E16036;
+    text-align: left;
+    position: relative;
+    font-size: 24px;
+    padding:  20px 19px 0px 19px;
+    font-family: "Open Sans", sans-serif;
+    
+    margin: 6% 0 0 0;
+}
+.view p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    position: relative;
+    color: #242424;
+    padding:  0px 19px 0px 19px;
+    margin-top: 5%;
+    text-align: left;
+}
+.view-first .foto_team { 
+    transition: all 0.2s linear;
+}
+.view-first .mask {
+    opacity: 0;
+    background-color: rgba(252,222,156, 0.8); 
+    transition: all 0.4s ease-in-out;
+}
+.view-first:hover .foto_team { 
+	transform: scale(1.1);
+}
+.view-first:hover .mask { 
+	opacity: 1;
+}
+.view i{
+    text-align: right;
+    color: #E16036;
+    font-size: 50px;
+    padding-right: 10%;
+    padding-top: 10%;
+}
+.view .mask{
+    text-align: right;
+}
+
+
+.imagens{
+    margin-top: 7%;
+    margin-bottom: 7%;
+    
+}
+.space1{
+    margin-top: 25%;
+}
+.space2{
+    margin-top: 15%;
+}
+#contactos{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    padding-bottom: 10%;
+}
+#contactos h1{
+    text-align: left;
+}
+#contactos i:hover{
+    color: #FCDE9C;
+}
+footer{
+    background-color: #242424;
+    padding:1%;
+    
+}
+
+footer p{
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+    font-size: 14px;
+    text-align: center;
+}
+
+@media only screen and (max-width:766px){
+    #sobre h1, #best h1, #parcerias h1, #termos h1, #actividades h1, #horario h1, #team h1, #contactos h1{
+        font-size:24px;
+        padding-top: 10%;
+    }
+    p, footer p{
+        font-size: 13px;
+        line-height: 16px;
+    }
+    #best{
+        padding-right: 10%;
+    }
+    #sobre h2, #termos h2, #actividades h2{
+        font-size: 18px
+    }
+    .botao{
+        font-size:14px
+    }
+    #contactos i{
+        font-size:70px;
+        
+    }
+    .sobre_icons{
+        margin-top: 5%;
+    }
+    .best_img{
+        display: none;
+    }
+    .best_img_mobile{
+        display: block;
+    }
+    #best p{
+        
+        padding-top: 1%;
+    
+    }
+    #menu i{
+        font-size: 30px;
+    }
+    .horario{
+        width: 100%;
+        margin-left: 0;
+    }
+    
+}
+@media only screen and (min-width:360px) and (max-width:420px){
+    .view h2{
+        padding-top: 30%;
+    }
+}
+@media only screen and (min-width:420px) and (max-width:766px){
+    .view h2, .view p{
+        margin-left:10%;
+        
+    }
+    .view h2{
+        padding-top: 50%;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:990px){
+    .view h2, .view p{
+        margin-left:10%;
+        
+    }
+    .view h2{
+        padding-top: 30%;
+    }
+    #sobre h1, #best h1, #parcerias h1, #termos h1, #actividades h1, #team h1, #contactos h1{
+        font-size: 30px
+    }
+    p{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    #sobre h2, #termos h2, #actividades h2{
+        font-size: 22px
+    }
+    .botao{
+        font-size:16px
+    }
+    #best p{
+        
+        padding-top: 1%;
+    
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1076px){
+    .view h2{
+        font-size:18px;
+    }
+    .view p{
+        font-size:14px;
+        line-height: 16px;
+    }
+}
